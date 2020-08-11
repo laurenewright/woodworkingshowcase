@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h2>Fine Woodworking</h2>
+        <button class="tablink" onclick="openPage('Gallery', this, 'DarkGoldenRod')"id="defaultOpen">Gallery</button>
+        <button class="tablink" onclick="openPage('About', this, 'DarkGoldenRod')">About</button>
+        <button class="tablink" onclick="openPage('Store', this, 'DarkGoldenRod')">Store</button>
+        <button class="tablink" onclick="openPage('Process', this, 'DarkGoldenRod')">Process</button>
+        <div class="wrapper">
+            <div id="Gallery" class="tabcontent">
+                <div>
+                    <img src="imgs/boxsmallversion.png">
+                    <p>D&D Dice Box</p>
+                </div>
+                <div>
+                    <img src="imgs/cabinet.PNG">
+                    <p>Hand Plane Cabinet</p>
+                </div>
+                <div>
+                    <img src="imgs/pictureframe.PNG">
+                    <p>Custom Picture Frame</p>
+                </div>
+                <div>
+                    <img src="imgs/tablewithgame.PNG">
+                    <p>Custom Gaming Table with Game for Scale</p>
+                </div>
+                <div>
+                    <img src="imgs/tablewithoutgame.PNG">
+                    <p>Custom Gaming Table</p>
+                </div>
+            </div>
+            <div id="About" class="tabcontent"><p>Hey</p></div>
+            <div id="Store" class="tabcontent"><p>hi</p></div>
+            <div id="Process" class="tabcontent"><p>lol</p></div>
+        </div>
+    </body>
+    <script src='js/app.js'></script>
+</html>
