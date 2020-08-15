@@ -1,3 +1,33 @@
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  clear: both;
+}
+
+a {
+  text-decoration: none; /** Removes link styling. **/
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+p {
+  text-align: center;
+}
+
 /* nav styling */
 nav ul {
   list-style: none;
@@ -20,6 +50,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 #galleryImgs li {
@@ -39,8 +70,8 @@ ul {
 
 /* Style tab links */
 .tablink {
-    background-color: #555;
-    color: white;
+    /* background-color: #555; */
+    /* color: white; */
     float: left;
     border: none;
     outline: none;
@@ -52,7 +83,7 @@ ul {
   }
   
   .tablink:hover {
-    background-color: #777;
+    background-color: GoldenRod;
   }
   
   /* Style the tab content (and add height:100% for full page content) */
