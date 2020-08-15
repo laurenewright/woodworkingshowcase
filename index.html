@@ -7,37 +7,71 @@
       <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h2>Fine Woodworking</h2>
-        <button class="tablink" onclick="openPage('Gallery', this, 'DarkGoldenRod')"id="defaultOpen">Gallery</button>
-        <button class="tablink" onclick="openPage('About', this, 'DarkGoldenRod')">About</button>
-        <button class="tablink" onclick="openPage('Store', this, 'DarkGoldenRod')">Store</button>
-        <button class="tablink" onclick="openPage('Process', this, 'DarkGoldenRod')">Process</button>
+        <header>
+            <nav>
+                <ul>
+                    <li><a class="tablink" onclick="openPage('gallery', this, 'DarkGoldenRod')"id="defaultOpen">Gallery</a></li>
+                    <li><a class="tablink" onclick="openPage('about', this, 'DarkGoldenRod')">About</a></li>
+                    <li><a class="tablink" onclick="openPage('store', this, 'DarkGoldenRod')">Store</a></li>
+                    <li><a class="tablink" onclick="openPage('process', this, 'DarkGoldenRod')">Process</a></li>
+                </ul>
+            </nav>
+            <h2 id="title">Fine Woodworking</h2>
+            <title>Fine Woodworking</title>
+        </header>
         <div class="wrapper">
-            <div id="Gallery" class="tabcontent">
-                <div>
-                    <img src="imgs/boxsmallversion.png">
-                    <p>D&D Dice Box</p>
-                </div>
-                <div>
-                    <img src="imgs/cabinet.PNG">
-                    <p>Hand Plane Cabinet</p>
-                </div>
-                <div>
-                    <img src="imgs/pictureframe.PNG">
-                    <p>Custom Picture Frame</p>
-                </div>
-                <div>
-                    <img src="imgs/tablewithgame.PNG">
-                    <p>Custom Gaming Table with Game for Scale</p>
-                </div>
-                <div>
-                    <img src="imgs/tablewithoutgame.PNG">
-                    <p>Custom Gaming Table</p>
-                </div>
+            <div id="gallery" class="tabcontent">
+                <ul id="galleryImgs">
+                    <li>
+                        <img src="imgs/boxsmallversion.png">
+                        <p>D&D Dice Box</p>
+                    </li>
+                    <li>
+                        <img src="imgs/cabinet.PNG">
+                        <p>Hand Plane Cabinet</p>
+                    </li>
+                    <li>
+                        <img src="imgs/pictureframe.PNG">
+                        <p>Custom Picture Frame</p>
+                    </li>
+                    <li>
+                        <img src="imgs/tablewithgame.PNG">
+                        <p>Custom Gaming Table with Game for Scale</p>
+                    </li>
+                    <li>
+                        <img src="imgs/tablewithoutgame.PNG">
+                        <p>Custom Gaming Table</p>
+                    </li>
+                </ul>
             </div>
-            <div id="About" class="tabcontent"><p>Hey</p></div>
-            <div id="Store" class="tabcontent"><p>hi</p></div>
-            <div id="Process" class="tabcontent"><p>lol</p></div>
+            <div id="About" class="tabcontent">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris justo massa, tempus nec volutpat vel, vehicula eu nunc. Ut blandit urna ac leo eleifend suscipit et id nisi. 
+                    Aliquam erat volutpat. Pellentesque ac maximus erat. Nam egestas sed dolor vitae scelerisque. In lectus est, vulputate quis pellentesque nec, imperdiet eu enim. Cras 
+                    convallis eleifend mauris eu condimentum. Sed et arcu imperdiet, semper nisl vel, mollis nisl. Nunc efficitur malesuada tempor.
+                </p>
+                <p>
+                    Proin et dapibus metus, ac viverra turpis. Aliquam erat volutpat. Aenean ut sodales libero. Morbi ornare risus quis tincidunt lacinia. Nullam in justo turpis. 
+                    Aliquam non elit magna. Curabitur posuere odio non purus lobortis fermentum in sed diam. Praesent consequat odio tempus lacinia consequat.
+                </p>
+                <p>Praesent at lobortis nisi. Nullam dignissim luctus diam nec elementum. Sed vel arcu sit amet eros vestibulum maximus. Fusce luctus libero leo, ut blandit lacus vulputate a. Morbi vitae arcu eget metus viverra molestie. Praesent tincidunt dui sit amet dolor ultricies, sed maximus ipsum molestie. Maecenas consequat, metus id lobortis viverra, 
+                    magna lectus molestie mauris, eu elementum enim nisi id tortor. Duis eleifend velit augue, a dignissim mi tincidunt eu. Nulla malesuada ultrices justo at semper.
+                </p>
+                <p>
+                    Praesent congue porttitor suscipit. Proin ac congue dolor. Aliquam in ligula vel mauris consectetur vulputate eu vel massa. Etiam vestibulum, arcu et luctus ultrices, 
+                    libero eros bibendum dolor, nec varius sapien elit sed purus. In quis ligula in enim ultrices finibus. Pellentesque tempus id tellus in facilisis. In imperdiet, nisl vitae
+                    elementum bibendum, dui ligula rhoncus urna, eget gravida nisi neque vel neque. Mauris suscipit nunc a ipsum venenatis varius. Suspendisse porta risus ipsum, iaculis pulvinar 
+                    ex porttitor in. Sed ornare, est ac fringilla congue, nunc nisi tristique urna, sed rhoncus leo dui sed nunc. Phasellus ut metus gravida, volutpat ligula vitae, vulputate quam. 
+                    Phasellus dapibus leo orci, eget viverra orci dictum sit amet. Nullam aliquet odio in ante tempus, vel elementum neque tristique.
+                </p>
+                <p>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In non rutrum libero, at convallis dui. Sed quis tellus sed justo blandit fermentum a nec turpis. 
+                    Pellentesque orci velit, cursus vel vulputate tristique, pellentesque eget diam. Ut sem neque, fermentum eu felis a, aliquet pretium dolor. Aenean vehicula 
+                    enim vitae tortor pharetra aliquet. Nunc sapien eros, egestas in erat ac, vestibulum egestas lorem. In condimentum nec tortor a suscipit. Sed ornare semper purus et auctor.
+                </p>
+            </div>
+            <div id="store" class="tabcontent"><p>Currently Unavailable</p></div>
+            <div id="process" class="tabcontent"><p>lol</p></div>
         </div>
     </body>
     <script src='js/app.js'></script>

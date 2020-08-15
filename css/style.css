@@ -1,7 +1,41 @@
-.photos img{
-    display: block;
+/* nav styling */
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+  float: right;
 }
 
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 700;
+  padding: 15px 10px;
+}
+
+/* gallery styling */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#galleryImgs li {
+    float: left;
+    display: block;
+    margin: 2.5%;
+}
+
+/** Create a thumbnail for images of different sizes. And round the corners. **/
+#galleryImgs img {
+    display: block;
+    border-radius: 25px;
+    height:300px;
+    width:300px;
+    /* object-fit: cover; */
+}
 
 /* Style tab links */
 .tablink {
@@ -13,7 +47,8 @@
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
-    width: 25%;
+    /* width: 25%; */
+    float: right;
   }
   
   .tablink:hover {
